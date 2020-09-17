@@ -6,13 +6,13 @@
 /*   By: mkeshet <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/17 14:30:15 by mkeshet           #+#    #+#             */
-/*   Updated: 2020/09/17 15:45:51 by mkeshet          ###   ########.fr       */
+/*   Updated: 2020/09/17 15:48:15 by mkeshet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-int ft_iterative_factorial(int nb)
+int		ft_iterative_factorial(int nb)
 {
 	int i;
 	int facto;
@@ -29,12 +29,4 @@ int ft_iterative_factorial(int nb)
 		i++;
 	}
 	return (facto);
-}
-
-int		main(void)
-{
-	int nb = 0;
-	printf("%d", ft_iterative_factorial(nb));
-
-	return (0);
 }
